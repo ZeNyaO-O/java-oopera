@@ -11,7 +11,6 @@ public class Theatre {
         Actor actor1 = new Actor("Александр", "Морозов", Gender.MALE, 183);
         Actor actor2 = new Actor("Мария", "Морозова", Gender.FEMALE, 168);
         Actor actor3 = new Actor("Дмитрий", "Волков", Gender.MALE, 155);
-        //Actor actor4 = new Actor("Андрей", "Волков", Gender.MALE, 180);
 
         Director director1 = new Director("Сергей", "Петров", Gender.MALE, 12);
         Director director2 = new Director("Анна", "Смирнова", Gender.FEMALE, 6);
@@ -29,7 +28,6 @@ public class Theatre {
                 "Восстание гладиаторов под предводительством Спартака", choreographer);
         ballet.addActor(actor2);
         ballet.addActor(actor3);
-        //ballet.addActor(actor4);
         Opera opera = new Opera("Евгений Онегин", 160, director1, operaActors, musicAuthorOpera,
                 "История любви Татьяны Лариной и Евгения Онегина", 40);
         opera.addActor(actor1);
@@ -64,8 +62,6 @@ public class Theatre {
         opera.replaceActor("Сидоров", actor2);
         System.out.println();
 
-/*      ballet.replaceActor("Волков", actor2);
-        ballet.printActors();*/
 
         ballet.printLibretto();
         System.out.println();
